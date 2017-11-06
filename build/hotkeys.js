@@ -1,7 +1,7 @@
 /*! 
- * angular-hotkeys v1.7.0
- * https://chieffancypants.github.io/angular-hotkeys
- * Copyright (c) 2017 Wes Cruver
+ * ebullion/angular-hotkeys v1.7.0
+ * https://ebullion.github.io/angular-hotkeys
+ * Copyright (c) 2017 Wes Cruver / Eric Bullion
  * License: MIT
  */
 /*
