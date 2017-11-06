@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05792adf-fe0f-489c-bf42-acaca496c140" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="hotkeys.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hotkeys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1694">
+              <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1509987450637" expanded="true" signature="1128:1142" ph="..." />
+                <marker date="1509987450637" expanded="true" signature="1823:1829" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotkeys.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/hotkeys.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding>
+                <marker date="1509989318259" expanded="true" signature="0:153" ph="/*...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotkeys.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/hotkeys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7502">
+              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding>
+                <marker date="1509989318339" expanded="true" signature="0:153" ph="/*...*/" />
+                <marker date="1509989318339" expanded="true" signature="154:278" ph="/*...*/" />
+                <marker date="1509989318339" expanded="true" signature="293:24939" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="369:23837" ph="[...]" />
+                <marker date="1509989318339" expanded="true" signature="404:23836" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="411:508" ph="/** Configurable setting to disable the cheatsheet entirely ...*/" />
+                <marker date="1509989318339" expanded="true" signature="549:636" ph="/** Configurable setting to disable ngRoute hooks ...*/" />
+                <marker date="1509989318339" expanded="true" signature="698:785" ph="/** Configurable setting for the cheat sheet title ...*/" />
+                <marker date="1509989318339" expanded="true" signature="840:1020" ph="/** Configurable settings for the cheat sheet header and footer.  Both are HTML, and the header ...*/" />
+                <marker date="1509989318339" expanded="true" signature="1090:1198" ph="/** Cheat sheet template in the event you want to totally customize it. ...*/" />
+                <marker date="1509989318339" expanded="true" signature="1296:1310" ph="..." />
+                <marker date="1509989318339" expanded="true" signature="1991:1997" ph="..." />
+                <marker date="1509989318339" expanded="true" signature="2034:2122" ph="/** Configurable setting for the cheat sheet hotkey ...*/" />
+                <marker date="1509989318339" expanded="true" signature="2161:2254" ph="/** Configurable setting for the cheat sheet description ...*/" />
+                <marker date="1509989318339" expanded="true" signature="2335:23829" ph="[...]" />
+                <marker date="1509989318339" expanded="true" signature="2468:23828" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="2530:2573" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="2600:2642" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="2650:2867" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="2935:3273" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="2968:3002" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="3150:3185" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="3282:3476" ph="/** Convert strings like cmd into symbols like ⌘ ...*/" />
+                <marker date="1509989318339" expanded="true" signature="3509:4314" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="3529:3832" ph="{&quot;command&quot;: '\u2318'...}" />
+                <marker date="1509989318339" expanded="true" signature="3916:4271" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="4008:4212" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="4095:4146" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="4152:4200" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="4322:4937" ph="/** Hotkey object used internally for consistency ...*/" />
+                <marker date="1509989318339" expanded="true" signature="5019:5457" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="5029:5180" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="5465:5703" ph="/** Helper method to format (symbolize) the key combo for display ...*/" />
+                <marker date="1509989318339" expanded="true" signature="5748:6233" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="5787:6193" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="5799:5946" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="6083:6146" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="6242:6345" ph="/** A new scope used internally for the cheatsheet ...*/" />
+                <marker date="1509989318339" expanded="true" signature="6390:6484" ph="/** Holds an array of Hotkey objects currently bound ...*/" />
+                <marker date="1509989318339" expanded="true" signature="6518:6609" ph="/** Contains the state of the help's visibility ...*/" />
+                <marker date="1509989318339" expanded="true" signature="6650:6737" ph="/** Holds the title string for the help menu ...*/" />
+                <marker date="1509989318339" expanded="true" signature="6785:6871" ph="/** Holds the header HTML for the help menu ...*/" />
+                <marker date="1509989318339" expanded="true" signature="6921:7007" ph="/** Holds the footer HTML for the help menu ...*/" />
+                <marker date="1509989318339" expanded="true" signature="7057:7206" ph="/** Expose toggleCheatSheet to hotkeys scope so we can call it using ...*/" />
+                <marker date="1509989318339" expanded="true" signature="7264:7511" ph="/** Holds references to the different scopes that have bound hotkeys ...*/" />
+                <marker date="1509989318339" expanded="true" signature="7568:8503" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="7640:8493" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="7707:8483" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="7770:8469" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="7786:8043" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="8163:8227" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="8243:8382" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="8574:9070" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="8947:8993" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="9079:9279" ph="/** Purges all non-persistent hotkeys (such as those defined in routes) ...*/" />
+                <marker date="1509989318339" expanded="true" signature="9310:9514" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="9370:9506" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="9457:9496" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="9522:9586" ph="/** Toggles the help menu element's visiblity ...*/" />
+                <marker date="1509989318339" expanded="true" signature="9653:10538" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="9712:9928" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="9960:10357" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="10033:10242" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="10363:10530" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="10476:10520" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="10546:11138" ph="/** Creates a new Hotkey and creates the Mousetrap binding ...*/" />
+                <marker date="1509989318339" expanded="true" signature="11218:19006" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="12123:12574" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="12711:12826" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="12870:12922" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="12932:13098" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="13137:13177" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="13186:13475" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="13520:18659" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="13682:13721" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="13815:13857" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="13951:13993" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14085:14126" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14270:14473" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14404:14461" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14630:14860" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14786:14848" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="14945:18648" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15262:15591" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15380:15475" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15481:15577" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15696:15995" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15784:15879" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="15885:15981" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16091:17466" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16189:16496" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16251:16480" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16327:16462" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16632:17020" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16708:17004" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="16808:16986" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="17146:17452" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="17208:17436" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="17284:17418" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="17572:18529" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="17588:17727" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="17753:18515" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18073:18132" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18138:18499" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18311:18481" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18364:18461" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18562:18636" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18702:18775" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="18781:18846" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19014:19205" ph="/** delete and unbind a Hotkey ...*/" />
+                <marker date="1509989318339" expanded="true" signature="19234:20401" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19379:19571" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19467:19533" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19577:20369" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19664:20359" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19823:19933" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="19939:20322" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20056:20259" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20172:20243" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20409:20642" ph="/** Get a Hotkey object by key binding ...*/" />
+                <marker date="1509989318339" expanded="true" signature="20670:20983" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20693:20736" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20814:20952" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20902:20942" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="20991:21208" ph="/** Binds the hotkey to a particular scope.  Useful if the scope is ...*/" />
+                <marker date="1509989318339" expanded="true" signature="21238:22155" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21353:21661" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21495:21649" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21572:21637" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21670:21812" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="21828:22146" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21861:22136" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21926:21993" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="21999:22049" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="22163:22408" ph="/** All callbacks sent to Mousetrap are wrapped using this function ...*/" />
+                <marker date="1509989318339" expanded="true" signature="22444:23282" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="22532:23273" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="22545:22726" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="22768:22962" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="22889:22949" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="22974:23092" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="23133:23261" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="23306:23795" ph="{&quot;add&quot;: _add...}" />
+                <marker date="1509989318339" expanded="true" signature="23865:24739" ph="[...]" />
+                <marker date="1509989318339" expanded="true" signature="23896:24738" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="23911:24731" ph="{&quot;restrict&quot;: 'A'...}" />
+                <marker date="1509989318339" expanded="true" signature="23978:24723" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="24104:24542" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="24329:24528" ph="{&quot;combo&quot;: hotkey...}" />
+                <marker date="1509989318339" expanded="true" signature="24650:24711" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="24751:24934" ph="[...]" />
+                <marker date="1509989318339" expanded="true" signature="24782:24933" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="24790:24927" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="24945:24969" ph="/*...*/" />
+                <marker date="1509989318339" expanded="true" signature="24970:25717" ph="/** Copyright 2015 Craig Campbell ...*/" />
+                <marker date="1509989318339" expanded="true" signature="25757:57251" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="25764:26029" ph="/** mapping of special keycodes to their corresponding keys ...*/" />
+                <marker date="1509989318339" expanded="true" signature="26045:26501" ph="{&quot;8&quot;: 'backspace'...}" />
+                <marker date="1509989318339" expanded="true" signature="26508:26726" ph="/** mapping for special characters so they can support ...*/" />
+                <marker date="1509989318339" expanded="true" signature="26750:27047" ph="{&quot;106&quot;: '*'...}" />
+                <marker date="1509989318339" expanded="true" signature="27054:27337" ph="/** this is a mapping of keys that require shift on a US keypad ...*/" />
+                <marker date="1509989318339" expanded="true" signature="27359:27710" ph="{&quot;~&quot;: '`'...}" />
+                <marker date="1509989318339" expanded="true" signature="27717:27882" ph="/** this is a list of special strings you can use to map ...*/" />
+                <marker date="1509989318339" expanded="true" signature="27910:28123" ph="{&quot;option&quot;: 'alt'...}" />
+                <marker date="1509989318339" expanded="true" signature="28130:28335" ph="/** variable to store the flipped version of _MAP from above ...*/" />
+                <marker date="1509989318339" expanded="true" signature="28363:28463" ph="/** loop through the f keys, f1 to f19 and add them to the map ...*/" />
+                <marker date="1509989318339" expanded="true" signature="28497:28537" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="28543:28611" ph="/** loop through to map numbers on the numeric keypad ...*/" />
+                <marker date="1509989318339" expanded="true" signature="28641:28674" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="28680:28863" ph="/** cross browser add event method ...*/" />
+                <marker date="1509989318339" expanded="true" signature="28911:29099" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="28950:29041" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="29105:29224" ph="/** takes the event and returns the key character ...*/" />
+                <marker date="1509989318339" expanded="true" signature="29261:30668" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="29366:30105" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="29439:29966" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="29996:30064" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="30197:30242" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="30279:30332" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="30386:30603" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="30674:30822" ph="/** checks if two arrays are equal ...*/" />
+                <marker date="1509989318339" expanded="true" signature="30876:30959" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="30965:31095" ph="/** takes a key event and figures out what the modifiers are ...*/" />
+                <marker date="1509989318339" expanded="true" signature="31128:31478" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31183:31231" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31255:31301" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31326:31373" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31398:31445" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31484:31586" ph="/** prevents default for this event ...*/" />
+                <marker date="1509989318339" expanded="true" signature="31619:31752" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31651:31714" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31758:31861" ph="/** stops propogation for this event ...*/" />
+                <marker date="1509989318339" expanded="true" signature="31895:32030" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="31928:31992" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32036:32175" ph="/** determines if the keycode specified is a modifier key or not ...*/" />
+                <marker date="1509989318339" expanded="true" signature="32206:32294" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32300:32457" ph="/** reverses the map lookup so that we can look for specific keys ...*/" />
+                <marker date="1509989318339" expanded="true" signature="32488:33000" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32517:32965" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32584:32955" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32603:32730" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="32774:32823" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="32871:32941" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="33006:33202" ph="/** picks the best action based on the key combination ...*/" />
+                <marker date="1509989318339" expanded="true" signature="33256:33703" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="33267:33380" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="33402:33482" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="33492:33575" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="33630:33673" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="33709:33867" ph="/** Converts from a string key combination to an array ...*/" />
+                <marker date="1509989318339" expanded="true" signature="33910:34090" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="33945:33982" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="34096:34299" ph="/** Gets info for a specific key combination ...*/" />
+                <marker date="1509989318339" expanded="true" signature="34346:35576" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="34435:34532" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="34621:35294" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="34725:34785" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="34799:34955" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="35023:35118" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="35232:35284" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="35304:35400" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="35475:35569" ph="{&quot;key&quot;: key...}" />
+                <marker date="1509989318339" expanded="true" signature="35621:35850" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="35677:35714" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="35750:35786" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="35890:53012" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="36012:36072" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="36082:36178" ph="/** element to attach key events to ...*/" />
+                <marker date="1509989318339" expanded="true" signature="36225:36343" ph="/** a list of all the callbacks setup via Mousetrap.bind() ...*/" />
+                <marker date="1509989318339" expanded="true" signature="36383:36512" ph="/** direct map of string combinations to callbacks used for trigger() ...*/" />
+                <marker date="1509989318339" expanded="true" signature="36552:36734" ph="/** keeps track of what level each sequence is at since multiple ...*/" />
+                <marker date="1509989318339" expanded="true" signature="36778:36884" ph="/** variable to store the setTimeout call ...*/" />
+                <marker date="1509989318339" expanded="true" signature="36919:37042" ph="/** temporary state where we will ignore the next keyup ...*/" />
+                <marker date="1509989318339" expanded="true" signature="37090:37209" ph="/** temporary state where we will ignore the next keypress ...*/" />
+                <marker date="1509989318339" expanded="true" signature="37260:37442" ph="/** are we currently inside of a sequence? ...*/" />
+                <marker date="1509989318339" expanded="true" signature="37493:37652" ph="/** resets all sequence counters except for the ones passed in ...*/" />
+                <marker date="1509989318339" expanded="true" signature="37698:38142" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="37848:38036" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="37887:37980" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="38072:38132" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="38152:38568" ph="/** finds all callbacks that match based on the keycode, modifiers, ...*/" />
+                <marker date="1509989318339" expanded="true" signature="38657:41263" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="38875:38917" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="39056:39112" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="39126:39228" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="39297:41224" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="39374:39504" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="39607:39656" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="39674:39786" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="39834:39883" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="39901:40360" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="40483:41210" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="40506:40803" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="41059:41147" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="41273:41599" ph="/** actually calls the callback function ...*/" />
+                <marker date="1509989318339" expanded="true" signature="41661:41987" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="41802:41841" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="41889:41977" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="41997:42190" ph="/** handles a character key event ...*/" />
+                <marker date="1509989318339" expanded="true" signature="42251:46004" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="42609:42753" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="42649:42739" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="42872:44465" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="42891:43195" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="43234:44149" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="43257:43701" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="43758:43815" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="44167:44302" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="44351:44451" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="44479:45669" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="45849:45909" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="46015:46129" ph="/** handles a keydown event ...*/" />
+                <marker date="1509989318339" expanded="true" signature="46166:46901" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="46181:46326" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="46372:46424" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="46551:46590" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="46747:46828" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="46911:47183" ph="/** called to set a 1 second timeout on the specified sequence ...*/" />
+                <marker date="1509989318339" expanded="true" signature="47223:47334" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="47344:47607" ph="/** binds a key sequence to an event ...*/" />
+                <marker date="1509989318339" expanded="true" signature="47670:50221" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="47685:47794" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="47848:48094" ph="/** callback to increase the sequence level for this sequence and reset ...*/" />
+                <marker date="1509989318339" expanded="true" signature="48146:48359" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="48182:48344" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="48373:48627" ph="/** wraps the specified callback inside of another function in order ...*/" />
+                <marker date="1509989318339" expanded="true" signature="48670:49255" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="48740:48948" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="48989:49071" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="49089:49192" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="49269:49889" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="49940:50211" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="50231:50598" ph="/** binds a single keyboard combination ...*/" />
+                <marker date="1509989318339" expanded="true" signature="50680:52339" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="51049:51177" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="51215:51326" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="51394:51500" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="51750:52022" ph="//..." />
+                <marker date="1509989318339" expanded="true" signature="52096:52327" ph="{&quot;callback&quot;: callback...}" />
+                <marker date="1509989318339" expanded="true" signature="52349:52581" ph="/** binds multiple combinations to the same callback ...*/" />
+                <marker date="1509989318339" expanded="true" signature="52652:52801" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="52712:52791" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="53018:53516" ph="/** binds an event to mousetrap ...*/" />
+                <marker date="1509989318339" expanded="true" signature="53581:53751" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="53758:54294" ph="/** unbinds an event to mousetrap ...*/" />
+                <marker date="1509989318339" expanded="true" signature="54351:54449" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="54456:54607" ph="/** triggers an event that has already been bound ...*/" />
+                <marker date="1509989318339" expanded="true" signature="54665:54840" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="54742:54813" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="54847:55087" ph="/** resets the library back to its initial state.  this is useful ...*/" />
+                <marker date="1509989318339" expanded="true" signature="55131:55244" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="55251:55411" ph="/** should we stop this event before firing off callbacks ...*/" />
+                <marker date="1509989318339" expanded="true" signature="55472:55959" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="55646:55683" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="55731:55768" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="55966:56051" ph="/** exposes _handleKey publicly so it can be overwritten by extensions ...*/" />
+                <marker date="1509989318339" expanded="true" signature="56099:56186" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="56193:56384" ph="/** Init the global mousetrap functions ...*/" />
+                <marker date="1509989318339" expanded="true" signature="56417:56835" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="56518:56829" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="56562:56819" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="56618:56794" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="56658:56775" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="57034:57077" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="57172:57249" ph="{...}" />
+                <marker date="1509989318339" expanded="true" signature="57200:57241" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1509985642370" expanded="true" signature="3858:4517" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="3884:4006" ph="//..." />
+                  <marker date="1509985642370" expanded="true" signature="4021:4147" ph="{&quot;combo&quot;: 'ctrl+up'...}" />
+                  <marker date="1509985642370" expanded="true" signature="4110:4143" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="4153:4321" ph="//..." />
+                  <marker date="1509985642370" expanded="true" signature="4356:4443" ph="{&quot;combo&quot;: 'w'...}" />
+                  <marker date="1509985642370" expanded="true" signature="4733:4920" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="4762:4916" ph="{&quot;controller&quot;: 'RestaurantsController'...}" />
+                  <marker date="1509985642370" expanded="true" signature="4861:4912" ph="[...]" />
+                  <marker date="1509985642370" expanded="true" signature="5966:6018" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="6300:6345" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="6795:6954" ph="{...}" />
+                  <marker date="1509985642370" expanded="true" signature="8644:8820" ph="{&quot;combo&quot;: 'ctrl+w'...}" />
+                  <marker date="1509985642370" expanded="true" signature="8785:8818" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>determine</find>
+      <find>Mousetrap</find>
+      <find>$get</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/hotkeys.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="angular-hotkeys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-hotkeys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-hotkeys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-hotkeys" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular-hotkeys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-hotkeys" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="hotkeys.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="angular-hotkeys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular-hotkeys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05792adf-fe0f-489c-bf42-acaca496c140" name="Default" comment="" />
+      <created>1509985668540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509985668540</updated>
+      <workItem from="1509985669808" duration="4349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4349000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298077" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/hotkeys.js</url>
+          <line>73</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/hotkeys.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1509989318259" expanded="true" signature="0:153" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hotkeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1509987450637" expanded="true" signature="1128:1142" ph="..." />
+            <marker date="1509987450637" expanded="true" signature="1823:1829" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/hotkeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7502">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <marker date="1509989318339" expanded="true" signature="0:153" ph="/*...*/" />
+            <marker date="1509989318339" expanded="true" signature="154:278" ph="/*...*/" />
+            <marker date="1509989318339" expanded="true" signature="293:24939" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="369:23837" ph="[...]" />
+            <marker date="1509989318339" expanded="true" signature="404:23836" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="411:508" ph="/** Configurable setting to disable the cheatsheet entirely ...*/" />
+            <marker date="1509989318339" expanded="true" signature="549:636" ph="/** Configurable setting to disable ngRoute hooks ...*/" />
+            <marker date="1509989318339" expanded="true" signature="698:785" ph="/** Configurable setting for the cheat sheet title ...*/" />
+            <marker date="1509989318339" expanded="true" signature="840:1020" ph="/** Configurable settings for the cheat sheet header and footer.  Both are HTML, and the header ...*/" />
+            <marker date="1509989318339" expanded="true" signature="1090:1198" ph="/** Cheat sheet template in the event you want to totally customize it. ...*/" />
+            <marker date="1509989318339" expanded="true" signature="1296:1310" ph="..." />
+            <marker date="1509989318339" expanded="true" signature="1991:1997" ph="..." />
+            <marker date="1509989318339" expanded="true" signature="2034:2122" ph="/** Configurable setting for the cheat sheet hotkey ...*/" />
+            <marker date="1509989318339" expanded="true" signature="2161:2254" ph="/** Configurable setting for the cheat sheet description ...*/" />
+            <marker date="1509989318339" expanded="true" signature="2335:23829" ph="[...]" />
+            <marker date="1509989318339" expanded="true" signature="2468:23828" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="2530:2573" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="2600:2642" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="2650:2867" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="2935:3273" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="2968:3002" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="3150:3185" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="3282:3476" ph="/** Convert strings like cmd into symbols like ⌘ ...*/" />
+            <marker date="1509989318339" expanded="true" signature="3509:4314" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="3529:3832" ph="{&quot;command&quot;: '\u2318'...}" />
+            <marker date="1509989318339" expanded="true" signature="3916:4271" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="4008:4212" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="4095:4146" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="4152:4200" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="4322:4937" ph="/** Hotkey object used internally for consistency ...*/" />
+            <marker date="1509989318339" expanded="true" signature="5019:5457" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="5029:5180" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="5465:5703" ph="/** Helper method to format (symbolize) the key combo for display ...*/" />
+            <marker date="1509989318339" expanded="true" signature="5748:6233" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="5787:6193" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="5799:5946" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="6083:6146" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="6242:6345" ph="/** A new scope used internally for the cheatsheet ...*/" />
+            <marker date="1509989318339" expanded="true" signature="6390:6484" ph="/** Holds an array of Hotkey objects currently bound ...*/" />
+            <marker date="1509989318339" expanded="true" signature="6518:6609" ph="/** Contains the state of the help's visibility ...*/" />
+            <marker date="1509989318339" expanded="true" signature="6650:6737" ph="/** Holds the title string for the help menu ...*/" />
+            <marker date="1509989318339" expanded="true" signature="6785:6871" ph="/** Holds the header HTML for the help menu ...*/" />
+            <marker date="1509989318339" expanded="true" signature="6921:7007" ph="/** Holds the footer HTML for the help menu ...*/" />
+            <marker date="1509989318339" expanded="true" signature="7057:7206" ph="/** Expose toggleCheatSheet to hotkeys scope so we can call it using ...*/" />
+            <marker date="1509989318339" expanded="true" signature="7264:7511" ph="/** Holds references to the different scopes that have bound hotkeys ...*/" />
+            <marker date="1509989318339" expanded="true" signature="7568:8503" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="7640:8493" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="7707:8483" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="7770:8469" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="7786:8043" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="8163:8227" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="8243:8382" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="8574:9070" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="8947:8993" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="9079:9279" ph="/** Purges all non-persistent hotkeys (such as those defined in routes) ...*/" />
+            <marker date="1509989318339" expanded="true" signature="9310:9514" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="9370:9506" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="9457:9496" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="9522:9586" ph="/** Toggles the help menu element's visiblity ...*/" />
+            <marker date="1509989318339" expanded="true" signature="9653:10538" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="9712:9928" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="9960:10357" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="10033:10242" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="10363:10530" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="10476:10520" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="10546:11138" ph="/** Creates a new Hotkey and creates the Mousetrap binding ...*/" />
+            <marker date="1509989318339" expanded="true" signature="11218:19006" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="12123:12574" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="12711:12826" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="12870:12922" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="12932:13098" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="13137:13177" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="13186:13475" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="13520:18659" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="13682:13721" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="13815:13857" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="13951:13993" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14085:14126" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14270:14473" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14404:14461" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14630:14860" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14786:14848" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="14945:18648" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15262:15591" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15380:15475" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15481:15577" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15696:15995" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15784:15879" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="15885:15981" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16091:17466" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16189:16496" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16251:16480" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16327:16462" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16632:17020" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16708:17004" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="16808:16986" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="17146:17452" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="17208:17436" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="17284:17418" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="17572:18529" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="17588:17727" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="17753:18515" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18073:18132" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18138:18499" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18311:18481" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18364:18461" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18562:18636" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18702:18775" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="18781:18846" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19014:19205" ph="/** delete and unbind a Hotkey ...*/" />
+            <marker date="1509989318339" expanded="true" signature="19234:20401" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19379:19571" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19467:19533" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19577:20369" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19664:20359" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19823:19933" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="19939:20322" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20056:20259" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20172:20243" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20409:20642" ph="/** Get a Hotkey object by key binding ...*/" />
+            <marker date="1509989318339" expanded="true" signature="20670:20983" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20693:20736" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20814:20952" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20902:20942" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="20991:21208" ph="/** Binds the hotkey to a particular scope.  Useful if the scope is ...*/" />
+            <marker date="1509989318339" expanded="true" signature="21238:22155" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21353:21661" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21495:21649" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21572:21637" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21670:21812" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="21828:22146" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21861:22136" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21926:21993" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="21999:22049" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="22163:22408" ph="/** All callbacks sent to Mousetrap are wrapped using this function ...*/" />
+            <marker date="1509989318339" expanded="true" signature="22444:23282" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="22532:23273" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="22545:22726" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="22768:22962" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="22889:22949" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="22974:23092" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="23133:23261" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="23306:23795" ph="{&quot;add&quot;: _add...}" />
+            <marker date="1509989318339" expanded="true" signature="23865:24739" ph="[...]" />
+            <marker date="1509989318339" expanded="true" signature="23896:24738" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="23911:24731" ph="{&quot;restrict&quot;: 'A'...}" />
+            <marker date="1509989318339" expanded="true" signature="23978:24723" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="24104:24542" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="24329:24528" ph="{&quot;combo&quot;: hotkey...}" />
+            <marker date="1509989318339" expanded="true" signature="24650:24711" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="24751:24934" ph="[...]" />
+            <marker date="1509989318339" expanded="true" signature="24782:24933" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="24790:24927" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="24945:24969" ph="/*...*/" />
+            <marker date="1509989318339" expanded="true" signature="24970:25717" ph="/** Copyright 2015 Craig Campbell ...*/" />
+            <marker date="1509989318339" expanded="true" signature="25757:57251" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="25764:26029" ph="/** mapping of special keycodes to their corresponding keys ...*/" />
+            <marker date="1509989318339" expanded="true" signature="26045:26501" ph="{&quot;8&quot;: 'backspace'...}" />
+            <marker date="1509989318339" expanded="true" signature="26508:26726" ph="/** mapping for special characters so they can support ...*/" />
+            <marker date="1509989318339" expanded="true" signature="26750:27047" ph="{&quot;106&quot;: '*'...}" />
+            <marker date="1509989318339" expanded="true" signature="27054:27337" ph="/** this is a mapping of keys that require shift on a US keypad ...*/" />
+            <marker date="1509989318339" expanded="true" signature="27359:27710" ph="{&quot;~&quot;: '`'...}" />
+            <marker date="1509989318339" expanded="true" signature="27717:27882" ph="/** this is a list of special strings you can use to map ...*/" />
+            <marker date="1509989318339" expanded="true" signature="27910:28123" ph="{&quot;option&quot;: 'alt'...}" />
+            <marker date="1509989318339" expanded="true" signature="28130:28335" ph="/** variable to store the flipped version of _MAP from above ...*/" />
+            <marker date="1509989318339" expanded="true" signature="28363:28463" ph="/** loop through the f keys, f1 to f19 and add them to the map ...*/" />
+            <marker date="1509989318339" expanded="true" signature="28497:28537" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="28543:28611" ph="/** loop through to map numbers on the numeric keypad ...*/" />
+            <marker date="1509989318339" expanded="true" signature="28641:28674" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="28680:28863" ph="/** cross browser add event method ...*/" />
+            <marker date="1509989318339" expanded="true" signature="28911:29099" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="28950:29041" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="29105:29224" ph="/** takes the event and returns the key character ...*/" />
+            <marker date="1509989318339" expanded="true" signature="29261:30668" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="29366:30105" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="29439:29966" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="29996:30064" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="30197:30242" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="30279:30332" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="30386:30603" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="30674:30822" ph="/** checks if two arrays are equal ...*/" />
+            <marker date="1509989318339" expanded="true" signature="30876:30959" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="30965:31095" ph="/** takes a key event and figures out what the modifiers are ...*/" />
+            <marker date="1509989318339" expanded="true" signature="31128:31478" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31183:31231" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31255:31301" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31326:31373" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31398:31445" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31484:31586" ph="/** prevents default for this event ...*/" />
+            <marker date="1509989318339" expanded="true" signature="31619:31752" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31651:31714" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31758:31861" ph="/** stops propogation for this event ...*/" />
+            <marker date="1509989318339" expanded="true" signature="31895:32030" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="31928:31992" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32036:32175" ph="/** determines if the keycode specified is a modifier key or not ...*/" />
+            <marker date="1509989318339" expanded="true" signature="32206:32294" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32300:32457" ph="/** reverses the map lookup so that we can look for specific keys ...*/" />
+            <marker date="1509989318339" expanded="true" signature="32488:33000" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32517:32965" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32584:32955" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32603:32730" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="32774:32823" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="32871:32941" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="33006:33202" ph="/** picks the best action based on the key combination ...*/" />
+            <marker date="1509989318339" expanded="true" signature="33256:33703" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="33267:33380" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="33402:33482" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="33492:33575" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="33630:33673" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="33709:33867" ph="/** Converts from a string key combination to an array ...*/" />
+            <marker date="1509989318339" expanded="true" signature="33910:34090" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="33945:33982" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="34096:34299" ph="/** Gets info for a specific key combination ...*/" />
+            <marker date="1509989318339" expanded="true" signature="34346:35576" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="34435:34532" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="34621:35294" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="34725:34785" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="34799:34955" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="35023:35118" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="35232:35284" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="35304:35400" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="35475:35569" ph="{&quot;key&quot;: key...}" />
+            <marker date="1509989318339" expanded="true" signature="35621:35850" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="35677:35714" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="35750:35786" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="35890:53012" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="36012:36072" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="36082:36178" ph="/** element to attach key events to ...*/" />
+            <marker date="1509989318339" expanded="true" signature="36225:36343" ph="/** a list of all the callbacks setup via Mousetrap.bind() ...*/" />
+            <marker date="1509989318339" expanded="true" signature="36383:36512" ph="/** direct map of string combinations to callbacks used for trigger() ...*/" />
+            <marker date="1509989318339" expanded="true" signature="36552:36734" ph="/** keeps track of what level each sequence is at since multiple ...*/" />
+            <marker date="1509989318339" expanded="true" signature="36778:36884" ph="/** variable to store the setTimeout call ...*/" />
+            <marker date="1509989318339" expanded="true" signature="36919:37042" ph="/** temporary state where we will ignore the next keyup ...*/" />
+            <marker date="1509989318339" expanded="true" signature="37090:37209" ph="/** temporary state where we will ignore the next keypress ...*/" />
+            <marker date="1509989318339" expanded="true" signature="37260:37442" ph="/** are we currently inside of a sequence? ...*/" />
+            <marker date="1509989318339" expanded="true" signature="37493:37652" ph="/** resets all sequence counters except for the ones passed in ...*/" />
+            <marker date="1509989318339" expanded="true" signature="37698:38142" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="37848:38036" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="37887:37980" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="38072:38132" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="38152:38568" ph="/** finds all callbacks that match based on the keycode, modifiers, ...*/" />
+            <marker date="1509989318339" expanded="true" signature="38657:41263" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="38875:38917" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="39056:39112" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="39126:39228" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="39297:41224" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="39374:39504" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="39607:39656" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="39674:39786" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="39834:39883" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="39901:40360" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="40483:41210" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="40506:40803" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="41059:41147" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="41273:41599" ph="/** actually calls the callback function ...*/" />
+            <marker date="1509989318339" expanded="true" signature="41661:41987" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="41802:41841" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="41889:41977" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="41997:42190" ph="/** handles a character key event ...*/" />
+            <marker date="1509989318339" expanded="true" signature="42251:46004" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="42609:42753" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="42649:42739" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="42872:44465" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="42891:43195" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="43234:44149" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="43257:43701" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="43758:43815" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="44167:44302" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="44351:44451" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="44479:45669" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="45849:45909" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="46015:46129" ph="/** handles a keydown event ...*/" />
+            <marker date="1509989318339" expanded="true" signature="46166:46901" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="46181:46326" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="46372:46424" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="46551:46590" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="46747:46828" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="46911:47183" ph="/** called to set a 1 second timeout on the specified sequence ...*/" />
+            <marker date="1509989318339" expanded="true" signature="47223:47334" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="47344:47607" ph="/** binds a key sequence to an event ...*/" />
+            <marker date="1509989318339" expanded="true" signature="47670:50221" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="47685:47794" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="47848:48094" ph="/** callback to increase the sequence level for this sequence and reset ...*/" />
+            <marker date="1509989318339" expanded="true" signature="48146:48359" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="48182:48344" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="48373:48627" ph="/** wraps the specified callback inside of another function in order ...*/" />
+            <marker date="1509989318339" expanded="true" signature="48670:49255" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="48740:48948" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="48989:49071" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="49089:49192" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="49269:49889" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="49940:50211" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="50231:50598" ph="/** binds a single keyboard combination ...*/" />
+            <marker date="1509989318339" expanded="true" signature="50680:52339" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="51049:51177" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="51215:51326" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="51394:51500" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="51750:52022" ph="//..." />
+            <marker date="1509989318339" expanded="true" signature="52096:52327" ph="{&quot;callback&quot;: callback...}" />
+            <marker date="1509989318339" expanded="true" signature="52349:52581" ph="/** binds multiple combinations to the same callback ...*/" />
+            <marker date="1509989318339" expanded="true" signature="52652:52801" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="52712:52791" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="53018:53516" ph="/** binds an event to mousetrap ...*/" />
+            <marker date="1509989318339" expanded="true" signature="53581:53751" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="53758:54294" ph="/** unbinds an event to mousetrap ...*/" />
+            <marker date="1509989318339" expanded="true" signature="54351:54449" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="54456:54607" ph="/** triggers an event that has already been bound ...*/" />
+            <marker date="1509989318339" expanded="true" signature="54665:54840" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="54742:54813" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="54847:55087" ph="/** resets the library back to its initial state.  this is useful ...*/" />
+            <marker date="1509989318339" expanded="true" signature="55131:55244" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="55251:55411" ph="/** should we stop this event before firing off callbacks ...*/" />
+            <marker date="1509989318339" expanded="true" signature="55472:55959" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="55646:55683" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="55731:55768" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="55966:56051" ph="/** exposes _handleKey publicly so it can be overwritten by extensions ...*/" />
+            <marker date="1509989318339" expanded="true" signature="56099:56186" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="56193:56384" ph="/** Init the global mousetrap functions ...*/" />
+            <marker date="1509989318339" expanded="true" signature="56417:56835" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="56518:56829" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="56562:56819" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="56618:56794" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="56658:56775" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="57034:57077" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="57172:57249" ph="{...}" />
+            <marker date="1509989318339" expanded="true" signature="57200:57241" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1509985642370" expanded="true" signature="3858:4517" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="3884:4006" ph="//..." />
+              <marker date="1509985642370" expanded="true" signature="4021:4147" ph="{&quot;combo&quot;: 'ctrl+up'...}" />
+              <marker date="1509985642370" expanded="true" signature="4110:4143" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="4153:4321" ph="//..." />
+              <marker date="1509985642370" expanded="true" signature="4356:4443" ph="{&quot;combo&quot;: 'w'...}" />
+              <marker date="1509985642370" expanded="true" signature="4733:4920" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="4762:4916" ph="{&quot;controller&quot;: 'RestaurantsController'...}" />
+              <marker date="1509985642370" expanded="true" signature="4861:4912" ph="[...]" />
+              <marker date="1509985642370" expanded="true" signature="5966:6018" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="6300:6345" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="6795:6954" ph="{...}" />
+              <marker date="1509985642370" expanded="true" signature="8644:8820" ph="{&quot;combo&quot;: 'ctrl+w'...}" />
+              <marker date="1509985642370" expanded="true" signature="8785:8818" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
