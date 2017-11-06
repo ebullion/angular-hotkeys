@@ -4,7 +4,7 @@
   "version": "1.7.0",
   "license": "MIT",
   "description": "Automatic keyboard shortcuts for your Angular Apps",
-  "homepage": "https://chieffancypants.github.io/angular-hotkeys",
+  "homepage": "https://ebullion.github.io/angular-hotkeys",
   "main": "build/hotkeys.js",
   "keywords": [
     "angular",
