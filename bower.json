@@ -1,6 +1,5 @@
 {
-  "name": "ebullion/angular-hotkeys",
-  "version": "1.7.1",
+  "name": "angular-hotkeys",
   "main": [
     "build/hotkeys.js",
     "build/hotkeys.css"
