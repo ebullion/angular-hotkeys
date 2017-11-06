@@ -1,7 +1,7 @@
 /*! 
  * angular-hotkeys v1.7.0
  * https://chieffancypants.github.io/angular-hotkeys
- * Copyright (c) 2016 Wes Cruver
+ * Copyright (c) 2017 Wes Cruver
  * License: MIT
  */
 /*
@@ -13,11 +13,11 @@
  * License: MIT
  */
 
-(function() {
+(function () {
 
   'use strict';
 
-  angular.module('cfp.hotkeys', []).provider('hotkeys', ['$injector', function($injector) {
+  angular.module('cfp.hotkeys', []).provider('hotkeys', ['$injector', function ($injector) {
 
     /**
      * Configurable setting to disable the cheatsheet entirely
@@ -51,19 +51,19 @@
      * @type {String}
      */
     this.template = '<div class="cfp-hotkeys-container fade" ng-class="{in: helpVisible}" style="display: none;"><div class="cfp-hotkeys">' +
-                      '<h4 class="cfp-hotkeys-title" ng-if="!header">{{ title }}</h4>' +
-                      '<div ng-bind-html="header" ng-if="header"></div>' +
-                      '<table><tbody>' +
-                        '<tr ng-repeat="hotkey in hotkeys | filter:{ description: \'!$$undefined$$\' }">' +
-                          '<td class="cfp-hotkeys-keys">' +
-                            '<span ng-repeat="key in hotkey.format() track by $index" class="cfp-hotkeys-key">{{ key }}</span>' +
-                          '</td>' +
-                          '<td class="cfp-hotkeys-text">{{ hotkey.description }}</td>' +
-                        '</tr>' +
-                      '</tbody></table>' +
-                      '<div ng-bind-html="footer" ng-if="footer"></div>' +
-                      '<div class="cfp-hotkeys-close" ng-click="toggleCheatSheet()">&#215;</div>' +
-                    '</div></div>';
+      '<h4 class="cfp-hotkeys-title" ng-if="!header">{{ title }}</h4>' +
+      '<div ng-bind-html="header" ng-if="header"></div>' +
+      '<table><tbody>' +
+      '<tr ng-repeat="hotkey in hotkeys | filter:{ description: \'!$$undefined$$\' }">' +
+      '<td class="cfp-hotkeys-keys">' +
+      '<span ng-repeat="key in hotkey.format() track by $index" class="cfp-hotkeys-key">{{ key }}</span>' +
+      '</td>' +
+      '<td class="cfp-hotkeys-text">{{ hotkey.description }}</td>' +
+      '</tr>' +
+      '</tbody></table>' +
+      '<div ng-bind-html="footer" ng-if="footer"></div>' +
+      '<div class="cfp-hotkeys-close" ng-click="toggleCheatSheet()">&#215;</div>' +
+      '</div></div>';
 
     /**
      * Configurable setting for the cheat sheet hotkey
@@ -92,7 +92,7 @@
       // monkeypatch Mousetrap's stopCallback() function
       // this version doesn't return true when the element is an INPUT, SELECT, or TEXTAREA
       // (instead we will perform this check per-key in the _add() method)
-      Mousetrap.prototype.stopCallback = function(event, element) {
+      Mousetrap.prototype.stopCallback = function (event, element) {
         if (!mouseTrapEnabled) {
           return true;
         }
@@ -110,23 +110,23 @@
        * @param  {String} combo Key combination, e.g. 'mod+f'
        * @return {String}       The key combination with symbols
        */
-      function symbolize (combo) {
+      function symbolize(combo) {
         var map = {
-          command   : '\u2318',     // ⌘
-          shift     : '\u21E7',     // ⇧
-          left      : '\u2190',     // ←
-          right     : '\u2192',     // →
-          up        : '\u2191',     // ↑
-          down      : '\u2193',     // ↓
-          'return'  : '\u23CE',     // ⏎
-          backspace : '\u232B'      // ⌫
+          command: '\u2318',     // ⌘
+          shift: '\u21E7',     // ⇧
+          left: '\u2190',     // ←
+          right: '\u2192',     // →
+          up: '\u2191',     // ↑
+          down: '\u2193',     // ↓
+          'return': '\u23CE',     // ⏎
+          backspace: '\u232B'      // ⌫
         };
         combo = combo.split('+');
 
         for (var i = 0; i < combo.length; i++) {
           // try to resolve command / ctrl based on OS:
           if (combo[i] === 'mod') {
-            if ($window.navigator && $window.navigator.platform.indexOf('Mac') >=0 ) {
+            if ($window.navigator && $window.navigator.platform.indexOf('Mac') >= 0) {
               combo[i] = 'command';
             } else {
               combo[i] = 'ctrl';
@@ -149,7 +149,7 @@
        * @param {array}    allowIn     an array of tag names to allow this combo in ('INPUT', 'SELECT', and/or 'TEXTAREA')
        * @param {Boolean}  persistent  Whether the hotkey persists navigation events
        */
-      function Hotkey (combo, description, callback, action, allowIn, persistent) {
+      function Hotkey(combo, description, callback, action, allowIn, persistent) {
         // TODO: Check that the values are sane because we could
         // be trying to instantiate a new Hotkey with outside dev's
         // supplied values
@@ -170,7 +170,7 @@
        *   for example: "command+g c i" becomes ["⌘ + g", "c", "i"]
        *
        */
-      Hotkey.prototype.format = function() {
+      Hotkey.prototype.format = function () {
         if (this._formated === null) {
           // Don't show all the possible key combos, just the first one.  Not sure
           // of usecase here, so open a ticket if my assumptions are wrong
@@ -263,7 +263,6 @@
       }
 
 
-
       // Auto-create a help menu:
       if (this.includeCheatSheet) {
         var document = $document[0];
@@ -335,7 +334,7 @@
        * @param {array}    allowIn     an array of tag names to allow this combo in ('INPUT', 'SELECT', and/or 'TEXTAREA')
        * @param {boolean}  persistent  if true, the binding is preserved upon route changes
        */
-      function _add (combo, description, callback, action, allowIn, persistent) {
+      function _add(combo, description, callback, action, allowIn, persistent) {
 
         // used to save original callback for "allowIn" wrapping:
         var _callback;
@@ -346,13 +345,33 @@
         // Determine if object format was given:
         var objType = Object.prototype.toString.call(combo);
 
+        // Determines if hotkey binding should exclude certain elements
+        var exElements = [];
+
+        // Determines if hotkey binding should include certain elements
+        var inElements = [];
+
+        // Determines if hotkey binding should exclude certain classes
+        var exClasses = [];
+
+        // Determines if hotkey binding should bind only to elements containing certain class
+        var classOnly;
+
+        // Determines if hotkey binding to one element with given id
+        var targetElement;
+
         if (objType === '[object Object]') {
           description = combo.description;
-          callback    = combo.callback;
-          action      = combo.action;
-          persistent  = combo.persistent;
-          allowIn     = combo.allowIn;
-          combo       = combo.combo;
+          callback = combo.callback;
+          action = combo.action;
+          persistent = combo.persistent;
+          allowIn = combo.allowIn;
+          exElements = combo.excludedElements;
+          inElements = combo.includedElements;
+          exClasses = combo.excludedClasses;
+          classOnly = combo.targetClass;
+          targetElement = combo.target;
+          combo = combo.combo;
         }
 
         // no duplicates please
@@ -387,9 +406,24 @@
             allowIn = [];
           }
 
+          // make sure exElements is an array
+          if (!(exElements instanceof Array)) {
+            exElements = [];
+          }
+
+          // make sure inElements is an array
+          if (!(inElements instanceof Array)) {
+            inElements = [];
+          }
+
+          // make sure exClasses is an array
+          if (!(exClasses instanceof Array)) {
+            exClasses = [];
+          }
+
           // remove anything from preventIn that's present in allowIn
           var index;
-          for (var i=0; i < allowIn.length; i++) {
+          for (var i = 0; i < allowIn.length; i++) {
             allowIn[i] = allowIn[i].toUpperCase();
             index = preventIn.indexOf(allowIn[i]);
             if (index !== -1) {
@@ -397,25 +431,101 @@
             }
           }
 
+          // remove anything from preventIn that's present in inElements
+          var inEleIndex;
+          for (var ie = 0; i < inElements.length; ie++) {
+            inElements[ie] = inElements[ie].toUpperCase();
+            inEleIndex = preventIn.indexOf(inElements[ie]);
+            if (inEleIndex !== -1) {
+              preventIn.splice(inEleIndex, 1);
+            }
+          }
+
           // create the new wrapper callback
-          callback = function(event) {
+          callback = function (event) {
             var shouldExecute = true;
+            var target = event.target || event.srcElement; // srcElement is IE only
+            var nodeName = target.nodeName.toUpperCase();
+            var overrideExecute = false;
 
-            // if the callback is executed directly `hotkey.get('w').callback()`
-            // there will be no event, so just execute the callback.
-            if (event) {
-              var target = event.target || event.srcElement; // srcElement is IE only
-              var nodeName = target.nodeName.toUpperCase();
-
-              // check if the input has a mousetrap class, and skip checking preventIn if so
-              if ((' ' + target.className + ' ').indexOf(' mousetrap ') > -1) {
+            // check target first
+            if (targetElement && targetElement.length > 0) {
+              if (target.id.trim().length > 0 && targetElement.toUpperCase().indexOf(target.id.toUpperCase()) > -1) {
                 shouldExecute = true;
+                overrideExecute = true;
               } else {
-                // don't execute callback if the event was fired from inside an element listed in preventIn
-                for (var i=0; i<preventIn.length; i++) {
-                  if (preventIn[i] === nodeName) {
+                shouldExecute = false;
+                overrideExecute = true;
+              }
+            }
+
+            // check class only
+            if (!overrideExecute && classOnly && classOnly.length > 0) {
+              if ((' ' + target.className + ' ').indexOf(' ' + classOnly + ' ') > -1) {
+                shouldExecute = true;
+                overrideExecute = true;
+              } else {
+                shouldExecute = false;
+                overrideExecute = true;
+              }
+            }
+
+            //check exclusions and inclusions for overrides
+            if (!overrideExecute) {
+              //check element exclusions
+              if (exElements && exElements.length > 0) {
+                for (var k = 0; k < exElements.length; k++) {
+                  if (nodeName.indexOf(exElements[k].toUpperCase()) > -1) {
                     shouldExecute = false;
+                    overrideExecute = true;
                     break;
+                  }
+                }
+              }
+
+              //check class exclusions
+              var skipInclusions = false;
+              if (exClasses && exClasses.length > 0) {
+                for (var eIndex = 0; eIndex < exClasses.length; eIndex++) {
+                  if ((' ' + target.className + ' ').indexOf(' ' + exClasses[eIndex] + ' ') > -1) {
+                    shouldExecute = false;
+                    overrideExecute = true;
+                    skipInclusions = true;
+                    break;
+                  }
+                }
+              }
+
+              //check element inclusions
+              if (inElements && inElements.length > 0 && skipInclusions === false) {
+                for (var j = 0; j < inElements.length; j++) {
+                  if (nodeName.indexOf(inElements[j].toUpperCase()) > -1) {
+                    shouldExecute = true;
+                    overrideExecute = true;
+                    break;
+                  }
+                }
+              }
+            }
+
+            //if execution has not been overridden by class modifiers
+            if (!overrideExecute) {
+              // if the callback is executed directly `hotkey.get('w').callback()`
+              // there will be no event, so just execute the callback.
+              if (event) {
+                target = event.target || event.srcElement; // srcElement is IE only
+                nodeName = target.nodeName.toUpperCase();
+
+                // check if the input has a mousetrap class, and skip checking preventIn if so
+                if ((' ' + target.className + ' ').indexOf(' mousetrap ') > -1) {
+                  shouldExecute = true;
+                } else {
+                  // don't execute callback if the event was fired from inside an element listed in preventIn
+                  for (var i = 0; i < preventIn.length; i++) {
+                    if (preventIn[i] === nodeName) {
+                      shouldExecute = false;
+                      break;
+                    }
                   }
                 }
               }
@@ -444,7 +554,7 @@
        * @param  {mixed} hotkey   Either the bound key or an instance of Hotkey
        * @return {boolean}        true if successful
        */
-      function _del (hotkey) {
+      function _del(hotkey) {
         var combo = (hotkey instanceof Hotkey) ? hotkey.combo : hotkey;
 
         Mousetrap.unbind(combo);
@@ -469,7 +579,7 @@
               angular.forEach(boundScopes, function (boundScope) {
                 var scopeIndex = boundScope.indexOf(scope.hotkeys[index]);
                 if (scopeIndex !== -1) {
-                    boundScope.splice(scopeIndex, 1);
+                  boundScope.splice(scopeIndex, 1);
                 }
               });
 
@@ -489,7 +599,7 @@
        * @param  {[string]} [combo]  the key the Hotkey is bound to. Returns all key bindings if no key is passed
        * @return {Hotkey}          The Hotkey object
        */
-      function _get (combo) {
+      function _get(combo) {
 
         if (!combo) {
           return scope.hotkeys;
@@ -514,7 +624,7 @@
        *
        * @param  {Object} scope The scope to bind to
        */
-      function bindTo (scope) {
+      function bindTo(scope) {
         // Only initialize once to allow multiple calls for same scope.
         if (!(scope.$id in boundScopes)) {
 
@@ -553,7 +663,7 @@
        * @param  {Function} callback [description]
        * @return {[type]}            [description]
        */
-      function wrapApply (callback) {
+      function wrapApply(callback) {
         // return mousetrap a function to call
         return function (event, combo) {
 
@@ -570,7 +680,7 @@
 
           // this takes place outside angular, so we'll have to call
           // $apply() to make sure angular's digest happens
-          $rootScope.$apply(function() {
+          $rootScope.$apply(function () {
             // call the original hotkey callback with the keyboard event
             callback(event, _get(combo));
           });
@@ -578,20 +688,20 @@
       }
 
       var publicApi = {
-        add                   : _add,
-        del                   : _del,
-        get                   : _get,
-        bindTo                : bindTo,
-        template              : this.template,
-        toggleCheatSheet      : toggleCheatSheet,
-        includeCheatSheet     : this.includeCheatSheet,
-        cheatSheetHotkey      : this.cheatSheetHotkey,
-        cheatSheetDescription : this.cheatSheetDescription,
-        useNgRoute            : this.useNgRoute,
-        purgeHotkeys          : purgeHotkeys,
-        templateTitle         : this.templateTitle,
-        pause                 : pause,
-        unpause               : unpause
+        add: _add,
+        del: _del,
+        get: _get,
+        bindTo: bindTo,
+        template: this.template,
+        toggleCheatSheet: toggleCheatSheet,
+        includeCheatSheet: this.includeCheatSheet,
+        cheatSheetHotkey: this.cheatSheetHotkey,
+        cheatSheetDescription: this.cheatSheetDescription,
+        useNgRoute: this.useNgRoute,
+        purgeHotkeys: purgeHotkeys,
+        templateTitle: this.templateTitle,
+        pause: pause,
+        unpause: unpause
       };
 
       return publicApi;
@@ -601,40 +711,40 @@
 
   }])
 
-  .directive('hotkey', ['hotkeys', function (hotkeys) {
-    return {
-      restrict: 'A',
-      link: function (scope, el, attrs) {
-        var keys = [],
+    .directive('hotkey', ['hotkeys', function (hotkeys) {
+      return {
+        restrict: 'A',
+        link: function (scope, el, attrs) {
+          var keys = [],
             allowIn;
 
-        angular.forEach(scope.$eval(attrs.hotkey), function (func, hotkey) {
-          // split and trim the hotkeys string into array
-          allowIn = typeof attrs.hotkeyAllowIn === "string" ? attrs.hotkeyAllowIn.split(/[\s,]+/) : [];
+          angular.forEach(scope.$eval(attrs.hotkey), function (func, hotkey) {
+            // split and trim the hotkeys string into array
+            allowIn = typeof attrs.hotkeyAllowIn === "string" ? attrs.hotkeyAllowIn.split(/[\s,]+/) : [];
 
-          keys.push(hotkey);
+            keys.push(hotkey);
 
-          hotkeys.add({
-            combo: hotkey,
-            description: attrs.hotkeyDescription,
-            callback: func,
-            action: attrs.hotkeyAction,
-            allowIn: allowIn
+            hotkeys.add({
+              combo: hotkey,
+              description: attrs.hotkeyDescription,
+              callback: func,
+              action: attrs.hotkeyAction,
+              allowIn: allowIn
+            });
           });
-        });
 
-        // remove the hotkey if the directive is destroyed:
-        el.bind('$destroy', function() {
-          angular.forEach(keys, hotkeys.del);
-        });
-      }
-    };
-  }])
+          // remove the hotkey if the directive is destroyed:
+          el.bind('$destroy', function () {
+            angular.forEach(keys, hotkeys.del);
+          });
+        }
+      };
+    }])
 
-  .run(['hotkeys', function(hotkeys) {
-    // force hotkeys to run by injecting it. Without this, hotkeys only runs
-    // when a controller or something else asks for it via DI.
-  }]);
+    .run(['hotkeys', function (hotkeys) {
+      // force hotkeys to run by injecting it. Without this, hotkeys only runs
+      // when a controller or something else asks for it via DI.
+    }]);
 
 })();
 
@@ -1050,7 +1160,7 @@
     }
 
     function _belongsTo(element, ancestor) {
-        if (element === document) {
+        if (element === null || element === document) {
             return false;
         }
 
